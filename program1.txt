@@ -1,0 +1,11 @@
+write a program to check number is poisitive negative or zero
+
+def givenNumIs(num):
+    if num>0:
+        print("positive")
+    elif num<0:
+        print('negative')
+    else:
+        print("zero")
+num = float(input("give a number: "))
+givenNumIs(num)

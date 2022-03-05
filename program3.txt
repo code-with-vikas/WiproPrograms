@@ -1,0 +1,12 @@
+3.given two non-negative values,print true they both same last digit,such as 17 and 27
+
+def checkNum(n1,n2):
+    if n1%10==n2%10:
+        return True
+    return False
+n1 = int(input('enter the first number :'))
+n2 = int(input('enter the second number :'))
+if checkNum(n1,n2):
+    print('true')
+else:
+    print('false')

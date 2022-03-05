@@ -1,0 +1,7 @@
+4.WAp to print number 1 to 10 in a single row with tab space
+
+
+def printNum():
+    for i in range(1,11):
+        print(i,end=" ")
+printNum()

@@ -1,0 +1,9 @@
+write a program to find number is even or odd
+
+def isEvenOdd(n):
+    if n%2==0:
+        print("even")
+    print("odd")
+
+n=int(input("enetr the number :"))
+isEvenOdd(n) ## calling the function

@@ -1,0 +1,8 @@
+5. WAP to print even number between 23 and 57 .Each number should be rpint each seperate row.
+
+a= 23
+b=57
+print("given Even numbers are:")
+for num in range(a,b+1):
+    if num%2==0:
+        print(num)
